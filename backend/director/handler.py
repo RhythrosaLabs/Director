@@ -13,6 +13,7 @@ from director.agents.censor import CensorAgent
 from director.agents.image_generation import ImageGenerationAgent
 from director.agents.audio_generation import AudioGenerationAgent
 from director.agents.video_generation import VideoGenerationAgent
+from director.agents.runway_video import RunwayVideoAgent
 from director.agents.stream_video import StreamVideoAgent
 from director.agents.subtitle import SubtitleAgent
 from director.agents.slack_agent import SlackAgent
@@ -58,6 +59,7 @@ class ChatHandler:
             ImageGenerationAgent,
             AudioGenerationAgent,
             VideoGenerationAgent,
+            RunwayVideoAgent,
             StreamVideoAgent,
             SubtitleAgent,
             SlackAgent,
