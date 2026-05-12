@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img">
+  <rect width="1200" height="800" fill="#0a0a0c"/>
+  <rect width="1200" height="800" fill="#0a0a0c" fill-opacity="0.6"/>
+  <!-- glass dialog -->
+  <rect x="240" y="80" width="720" height="640" rx="20" fill="#0d0d10" stroke="#2a2a30"/>
+  <g transform="translate(280 120)" fill="#fafafa">
+    <text font-family="Georgia" font-style="italic" font-size="32">Add to cast</text>
+    <text y="32" font-family="ui-sans-serif" font-size="13" opacity="0.6">Lock a recurring character, location, or style. References are reused on every</text>
+    <text y="50" font-family="ui-sans-serif" font-size="13" opacity="0.6">shot that mentions <tspan font-family="ui-monospace" fill="#c980ff">@Tag</tspan>.</text>
+  </g>
+  <!-- kind tabs -->
+  <g transform="translate(280 220)">
+    <g><rect width="200" height="44" rx="10" fill="#ff2e63" fill-opacity="0.12" stroke="#ff2e63" stroke-opacity="0.45"/><text x="100" y="28" text-anchor="middle" font-family="ui-sans-serif" font-size="13" fill="#fafafa">Character</text></g>
+    <g transform="translate(212 0)"><rect width="200" height="44" rx="10" fill="#1a1a1f"/><text x="100" y="28" text-anchor="middle" font-family="ui-sans-serif" font-size="13" fill="#cfcfd2" opacity="0.7">Location</text></g>
+    <g transform="translate(424 0)"><rect width="200" height="44" rx="10" fill="#1a1a1f"/><text x="100" y="28" text-anchor="middle" font-family="ui-sans-serif" font-size="13" fill="#cfcfd2" opacity="0.7">Style</text></g>
+  </g>
+  <!-- name -->
+  <g transform="translate(280 290)" fill="#fafafa">
+    <text font-family="ui-sans-serif" font-size="10" letter-spacing="0.1em" fill="#9aa">NAME</text>
+    <rect y="14" width="640" height="40" rx="6" fill="#0a0a0c" stroke="#2a2a30"/>
+    <text x="14" y="40" font-family="ui-sans-serif" font-size="14">Ava</text>
+    <text y="78" font-family="ui-sans-serif" font-size="11" fill="#9aa">Tag: <tspan dx="6" font-family="ui-monospace" fill="#c980ff">@Ava</tspan></text>
+  </g>
+  <!-- generate vs upload -->
+  <g transform="translate(280 400)">
+    <rect width="640" height="36" rx="8" fill="#1a1a1f"/>
+    <rect x="2" y="2" width="316" height="32" rx="6" fill="#0d0d10"/>
+    <text x="160" y="24" text-anchor="middle" font-family="ui-sans-serif" font-size="12" fill="#fafafa">✦ Generate</text>
+    <text x="478" y="24" text-anchor="middle" font-family="ui-sans-serif" font-size="12" fill="#9aa" opacity="0.7">↑ Upload</text>
+  </g>
+  <!-- prompt -->
+  <g transform="translate(280 460)" fill="#fafafa">
+    <text font-family="ui-sans-serif" font-size="10" letter-spacing="0.1em" fill="#9aa">PROMPT</text>
+    <rect y="14" width="640" height="100" rx="6" fill="#0a0a0c" stroke="#2a2a30"/>
+    <text x="14" y="40" font-family="ui-monospace" font-size="13">Portrait of Ava, 30s, dark hair, jade earrings,</text>
+    <text x="14" y="60" font-family="ui-monospace" font-size="13">neutral studio backdrop, soft key light</text>
+  </g>
+  <!-- model + seed -->
+  <g transform="translate(280 590)">
+    <rect width="316" height="40" rx="6" fill="#0a0a0c" stroke="#2a2a30"/>
+    <text x="14" y="26" font-family="ui-monospace" font-size="12" fill="#fafafa">gen4_image · 8 cr ▾</text>
+    <rect x="328" width="200" height="40" rx="6" fill="#0a0a0c" stroke="#2a2a30"/>
+    <text x="342" y="26" font-family="ui-monospace" font-size="12" fill="#fafafa">seed: 73921</text>
+  </g>
+  <!-- cost row -->
+  <g transform="translate(280 650)">
+    <rect width="640" height="40" rx="8" fill="#1a1a1f"/>
+    <text x="14" y="26" font-family="ui-sans-serif" font-size="11" fill="#9aa">✦ Estimated cost</text>
+    <text x="626" y="26" text-anchor="end" font-family="ui-monospace" font-size="12" fill="#fafafa">$0.08</text>
+  </g>
+  <!-- buttons -->
+  <g transform="translate(680 720)">
+    <rect width="100" height="36" rx="8" fill="transparent"/>
+    <text x="50" y="22" text-anchor="middle" font-family="ui-sans-serif" font-size="13" fill="#9aa">Cancel</text>
+    <rect x="120" width="120" height="36" rx="8" fill="#ff2e63"/>
+    <text x="180" y="22" text-anchor="middle" font-family="ui-sans-serif" font-size="13" fill="#fff">Generate</text>
+  </g>
+</svg>

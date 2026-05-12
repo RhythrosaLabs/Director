@@ -162,10 +162,15 @@ export async function createShot(args: {
   return id;
 }
 
-export async function updateShot(id: string, patch: Partial<schema.Shot> & { referenceTags?: string[] }) {
-  const data: Partial<schema.Shot> = { ...patch, updatedAt: new Date() };
-  if (Array.isArray(patch.referenceTags)) {
-    data.referenceTags = JSON.stringify(patch.referenceTags);
+type ShotPatch = Partial<Omit<schema.Shot, "referenceTags">> & { referenceTags?: string[] | string };
+
+export async function updateShot(id: string, patch: ShotPatch) {
+  const { referenceTags, ...rest } = patch;
+  const data: Partial<schema.Shot> = { ...rest, updatedAt: new Date() };
+  if (Array.isArray(referenceTags)) {
+    data.referenceTags = JSON.stringify(referenceTags);
+  } else if (typeof referenceTags === "string") {
+    data.referenceTags = referenceTags;
   }
   await db.update(schema.shots).set(data).where(eq(schema.shots.id, id));
 }

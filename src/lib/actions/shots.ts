@@ -47,8 +47,9 @@ export async function createShotAction(input: z.infer<typeof CreateShotSchema>) 
 
 export async function updateShotAction(input: z.infer<typeof UpdateShotSchema>) {
   const parsed = UpdateShotSchema.parse(input);
-  const { id, projectId, ...patch } = parsed;
-  await updateShot(id, patch);
+  const { id, projectId, referenceTags, ...rest } = parsed;
+  // updateShot accepts an optional string[] of referenceTags and JSON-encodes it.
+  await updateShot(id, { ...rest, ...(referenceTags ? { referenceTags } : {}) });
   revalidatePath(`/projects/${projectId}`);
 }
 

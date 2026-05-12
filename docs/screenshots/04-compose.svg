@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img">
+  <rect width="1600" height="1000" fill="#0a0a0c"/>
+  <rect x="0" y="0" width="260" height="1000" fill="#0d0d10" stroke="#1a1a1f"/>
+  <g transform="translate(20 20)" fill="#fafafa">
+    <rect width="36" height="36" rx="8" fill="#ff2e63" opacity="0.85"/>
+    <text x="48" y="20" font-family="Georgia" font-style="italic" font-size="18">Director</text>
+    <text x="48" y="36" font-family="ui-sans-serif" font-size="9" letter-spacing="0.2em" opacity="0.5">STUDIO</text>
+  </g>
+  <g transform="translate(296 36)" fill="#fafafa">
+    <text font-family="Georgia" font-style="italic" font-size="36">SIGNAL FROM TOMORROW</text>
+    <text y="22" font-family="ui-sans-serif" font-size="13" opacity="0.6">Compose · 6 clips · 32s · 1280:720</text>
+  </g>
+  <!-- left col: final + post passes -->
+  <g transform="translate(296 100)">
+    <rect width="780" height="420" rx="16" fill="#0d0d10" stroke="#1a1a1f"/>
+    <text x="20" y="36" font-family="ui-sans-serif" font-size="10" letter-spacing="0.1em" fill="#9aa">▸ FINAL CUT</text>
+    <rect x="40" y="62" width="60" height="20" rx="10" fill="#22c55e" fill-opacity="0.2"/><text x="70" y="76" text-anchor="middle" font-family="ui-sans-serif" font-size="10" fill="#22c55e">Delivered</text>
+    <rect x="20" y="100" width="740" height="220" rx="10" fill="#000"/>
+    <polygon points="370,194 388,210 370,226" fill="#fff" opacity="0.85"/>
+    <rect x="20" y="334" width="740" height="6" rx="3" fill="#1a1a1f"/>
+    <rect x="20" y="334" width="320" height="6" rx="3" fill="#ff2e63"/>
+    <g transform="translate(20 358)">
+      <text font-family="ui-sans-serif" font-size="10" letter-spacing="0.1em" fill="#9aa">CROSSFADE</text>
+      <rect y="14" width="220" height="6" rx="3" fill="#1a1a1f"/>
+      <rect y="14" width="100" height="6" rx="3" fill="#3aa0ff"/>
+      <text x="240" y="20" font-family="ui-monospace" font-size="11" fill="#fafafa">0.40s</text>
+    </g>
+    <g transform="translate(440 358)">
+      <text font-family="ui-sans-serif" font-size="10" letter-spacing="0.1em" fill="#9aa">MUSIC VOLUME</text>
+      <rect y="14" width="220" height="6" rx="3" fill="#1a1a1f"/>
+      <rect y="14" width="60" height="6" rx="3" fill="#ffae3a"/>
+      <text x="240" y="20" font-family="ui-monospace" font-size="11" fill="#fafafa">25%</text>
+    </g>
+  </g>
+  <!-- post passes -->
+  <g transform="translate(296 540)">
+    <rect width="780" height="420" rx="16" fill="#0d0d10" stroke="#1a1a1f"/>
+    <text x="20" y="36" font-family="ui-sans-serif" font-size="10" letter-spacing="0.1em" fill="#9aa">▸ POST PASSES — aleph remix, restyle, isolate</text>
+    <g transform="translate(20 56)">
+      <g><rect width="240" height="160" rx="10" fill="#0a0a0c" stroke="#1a1a1f"/><rect x="0" y="0" width="240" height="100" fill="#1a1a1f"/><text x="12" y="118" font-family="ui-sans-serif" font-size="11" fill="#fafafa">#01 · @Ava enters @Office</text><rect x="12" y="128" width="80" height="22" rx="6" fill="#ff2e63"/><text x="52" y="144" text-anchor="middle" font-family="ui-sans-serif" font-size="10" fill="#fff">✦ Remix</text></g>
+      <g transform="translate(252 0)"><rect width="240" height="160" rx="10" fill="#0a0a0c" stroke="#1a1a1f"/><rect x="0" y="0" width="240" height="100" fill="#1a1a1f"/><text x="12" y="118" font-family="ui-sans-serif" font-size="11" fill="#fafafa">#02 · close-up phone</text><rect x="12" y="128" width="80" height="22" rx="6" fill="#1a1a1f" stroke="#2a2a30"/><text x="52" y="144" text-anchor="middle" font-family="ui-sans-serif" font-size="10" fill="#fafafa">✂ Cutout</text></g>
+      <g transform="translate(504 0)"><rect width="240" height="160" rx="10" fill="#0a0a0c" stroke="#1a1a1f"/><rect x="0" y="0" width="240" height="100" fill="#1a1a1f"/><text x="12" y="118" font-family="ui-sans-serif" font-size="11" fill="#fafafa">#03 · dolly down hall</text><rect x="12" y="128" width="80" height="22" rx="6" fill="#3aa0ff" fill-opacity="0.2"/><text x="52" y="144" text-anchor="middle" font-family="ui-sans-serif" font-size="10" fill="#3aa0ff">@Noir</text></g>
+    </g>
+  </g>
+  <!-- right col -->
+  <g transform="translate(1100 100)">
+    <rect width="480" height="220" rx="16" fill="#0d0d10" stroke="#1a1a1f"/>
+    <text x="20" y="36" font-family="ui-sans-serif" font-size="10" letter-spacing="0.1em" fill="#9aa">▸ VOICEOVER</text>
+    <text x="20" y="56" font-family="ui-sans-serif" font-size="11" fill="#9aa" opacity="0.7">Ready · re-generate to replace</text>
+    <rect x="20" y="76" width="440" height="80" rx="6" fill="#0a0a0c" stroke="#2a2a30"/>
+    <text x="32" y="100" font-family="ui-monospace" font-size="12" fill="#fafafa">She walked in already knowing.</text>
+    <text x="32" y="118" font-family="ui-monospace" font-size="12" fill="#fafafa">The signal had been waiting.</text>
+    <rect x="20" y="170" width="280" height="32" rx="6" fill="#1a1a1f"/><text x="32" y="190" font-family="ui-monospace" font-size="11" fill="#fafafa">Rachel — warm, professional ▾</text>
+    <rect x="308" y="170" width="152" height="32" rx="6" fill="#ff2e63"/><text x="384" y="190" text-anchor="middle" font-family="ui-sans-serif" font-size="12" fill="#fff">✦ Generate</text>
+  </g>
+  <g transform="translate(1100 340)">
+    <rect width="480" height="200" rx="16" fill="#0d0d10" stroke="#1a1a1f"/>
+    <text x="20" y="36" font-family="ui-sans-serif" font-size="10" letter-spacing="0.1em" fill="#9aa">▸ MUSIC BED</text>
+    <text x="20" y="56" font-family="ui-sans-serif" font-size="11" fill="#9aa" opacity="0.7">Ready</text>
+    <rect x="20" y="76" width="440" height="40" rx="6" fill="#0a0a0c" stroke="#2a2a30"/>
+    <text x="32" y="100" font-family="ui-monospace" font-size="12" fill="#fafafa">Tense ambient pad, slow heartbeat</text>
+    <rect x="20" y="130" width="440" height="36" rx="6" fill="#1a1a1f"/>
+    <polygon points="40,144 40,162 56,153" fill="#fff" opacity="0.85"/>
+    <rect x="64" y="148" width="380" height="2" rx="1" fill="#3aa0ff"/>
+    <rect x="64" y="148" width="140" height="2" rx="1" fill="#ffae3a"/>
+  </g>
+  <g transform="translate(1100 560)">
+    <rect width="480" height="200" rx="16" fill="#0d0d10" stroke="#1a1a1f"/>
+    <text x="20" y="36" font-family="ui-sans-serif" font-size="10" letter-spacing="0.1em" fill="#9aa">▸ COMPOSE</text>
+    <text x="20" y="68" font-family="Georgia" font-style="italic" font-size="20" fill="#fafafa">Stitch · mix · deliver</text>
+    <text x="20" y="92" font-family="ui-sans-serif" font-size="12" fill="#9aa" opacity="0.7">6 clips · 32s · ffmpeg crossfade + amix</text>
+    <rect x="20" y="130" width="200" height="44" rx="8" fill="#ff2e63"/>
+    <text x="120" y="158" text-anchor="middle" font-family="ui-sans-serif" font-size="13" fill="#fff">✦ Compose final cut</text>
+    <rect x="232" y="130" width="200" height="44" rx="8" fill="#1a1a1f" stroke="#2a2a30"/>
+    <text x="332" y="158" text-anchor="middle" font-family="ui-sans-serif" font-size="13" fill="#fafafa">↓ Download mp4</text>
+  </g>
+</svg>

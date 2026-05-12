@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img">
+  <defs>
+    <radialGradient id="g1" cx="20%" cy="0%" r="60%"><stop offset="0%" stop-color="#ff2e63" stop-opacity="0.35"/><stop offset="100%" stop-color="#ff2e63" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g2" cx="80%" cy="0%" r="60%"><stop offset="0%" stop-color="#3aa0ff" stop-opacity="0.35"/><stop offset="100%" stop-color="#3aa0ff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g3" cx="50%" cy="110%" r="60%"><stop offset="0%" stop-color="#ffae3a" stop-opacity="0.25"/><stop offset="100%" stop-color="#ffae3a" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="#0a0a0c"/>
+  <!-- sidebar -->
+  <rect x="0" y="0" width="260" height="1000" fill="#0d0d10" stroke="#1a1a1f"/>
+  <g transform="translate(20 20)" fill="#fafafa">
+    <rect width="36" height="36" rx="8" fill="#ff2e63" opacity="0.85"/>
+    <text x="48" y="20" font-family="Georgia" font-style="italic" font-size="18">Director</text>
+    <text x="48" y="36" font-family="ui-sans-serif" font-size="9" letter-spacing="0.2em" opacity="0.5">STUDIO</text>
+  </g>
+  <g transform="translate(12 90)" font-family="ui-sans-serif" font-size="13" fill="#cfcfd2">
+    <g><rect width="236" height="34" rx="6" fill="#1a1a1f"/><text x="36" y="22">Projects</text></g>
+    <g transform="translate(0 40)"><rect width="236" height="34" rx="6" fill="transparent"/><text x="36" y="22" opacity="0.6">New project</text></g>
+  </g>
+  <g transform="translate(20 800)" font-family="ui-monospace" font-size="11" fill="#cfcfd2">
+    <rect width="220" height="36" rx="6" fill="#0a0a0c" stroke="#1a1a1f"/>
+    <text x="14" y="22">⊙ 14,240 credits · Developer</text>
+  </g>
+  <!-- main canvas -->
+  <rect x="260" y="0" width="1340" height="1000" fill="url(#g1)"/>
+  <rect x="260" y="0" width="1340" height="1000" fill="url(#g2)"/>
+  <rect x="260" y="0" width="1340" height="1000" fill="url(#g3)"/>
+  <!-- hero card -->
+  <rect x="320" y="60" width="1220" height="500" rx="24" fill="#0d0d10" fill-opacity="0.6" stroke="#1a1a1f"/>
+  <g transform="translate(360 100)" fill="#fafafa">
+    <g><rect width="380" height="28" rx="14" fill="#ff2e63" fill-opacity="0.15" stroke="#ff2e63" stroke-opacity="0.4"/><text x="190" y="18" text-anchor="middle" font-family="ui-sans-serif" font-size="11" fill="#ff5b86">✦ Powered by Runway · gen4 · veo3 · seedance2 · aleph</text></g>
+    <text x="0" y="100" font-family="Georgia" font-style="italic" font-size="74">One canvas for</text>
+    <text x="0" y="180" font-family="Georgia" font-style="italic" font-size="74"><tspan fill="#c980ff">Cast</tspan> / <tspan fill="#3aa0ff">Storyboard</tspan> /</text>
+    <text x="0" y="260" font-family="Georgia" font-style="italic" font-size="74"><tspan fill="#ff5b86">Render</tspan> / <tspan fill="#ffae3a">Compose.</tspan></text>
+    <text x="0" y="320" font-family="ui-sans-serif" font-size="16" opacity="0.65">Cast a recurring character, storyboard a sequence, watch each shot render</text>
+    <text x="0" y="342" font-family="ui-sans-serif" font-size="16" opacity="0.65">live, then stitch a final cut. All on Runway. All in one place.</text>
+    <g transform="translate(0 380)">
+      <rect width="220" height="48" rx="10" fill="#ff2e63"/>
+      <text x="110" y="30" text-anchor="middle" font-family="ui-sans-serif" font-size="15" fill="#fff">Start a new production →</text>
+      <rect x="240" width="200" height="48" rx="10" fill="#1a1a1f" stroke="#2a2a30"/>
+      <text x="340" y="30" text-anchor="middle" font-family="ui-sans-serif" font-size="15" fill="#fafafa">Runway API docs</text>
+    </g>
+  </g>
+  <!-- feature grid -->
+  <g transform="translate(1000 120)">
+    <g><rect width="240" height="100" rx="14" fill="#0a0a0c" stroke="#1a1a1f"/><text x="20" y="36" font-family="ui-sans-serif" font-size="14" fill="#fafafa">Cast &amp; continuity</text><text x="20" y="60" font-family="ui-sans-serif" font-size="11" fill="#9aa" opacity="0.8">Lock characters and locations once.</text></g>
+    <g transform="translate(260 0)"><rect width="240" height="100" rx="14" fill="#0a0a0c" stroke="#1a1a1f"/><text x="20" y="36" font-family="ui-sans-serif" font-size="14" fill="#fafafa">Storyboard editor</text><text x="20" y="60" font-family="ui-sans-serif" font-size="11" fill="#9aa" opacity="0.8">Drag to reorder. Inline-edit prompts.</text></g>
+    <g transform="translate(0 120)"><rect width="240" height="100" rx="14" fill="#0a0a0c" stroke="#1a1a1f"/><text x="20" y="36" font-family="ui-sans-serif" font-size="14" fill="#fafafa">Live generation</text><text x="20" y="60" font-family="ui-sans-serif" font-size="11" fill="#9aa" opacity="0.8">Submit to Runway, watch tasks roll in.</text></g>
+    <g transform="translate(260 120)"><rect width="240" height="100" rx="14" fill="#0a0a0c" stroke="#1a1a1f"/><text x="20" y="36" font-family="ui-sans-serif" font-size="14" fill="#fafafa">Remix &amp; compose</text><text x="20" y="60" font-family="ui-sans-serif" font-size="11" fill="#9aa" opacity="0.8">Aleph restyle, bg swap, stitch mp4.</text></g>
+  </g>
+  <!-- projects header -->
+  <g transform="translate(360 620)" fill="#fafafa">
+    <text font-family="Georgia" font-style="italic" font-size="32">Your productions</text>
+    <text y="26" font-family="ui-sans-serif" font-size="13" opacity="0.55">3 projects in motion.</text>
+  </g>
+  <g transform="translate(360 700)">
+    <g><rect width="380" height="240" rx="14" fill="#0a0a0c" stroke="#1a1a1f"/><text x="20" y="40" font-family="ui-sans-serif" font-size="11" fill="#22d3ee">● Active</text><text x="20" y="84" font-family="Georgia" font-style="italic" font-size="22" fill="#fafafa">SIGNAL FROM TOMORROW</text><text x="20" y="108" font-family="ui-sans-serif" font-size="12" fill="#9aa" opacity="0.7">Cinematic sci-fi trailer · 6 shots, 30s, 16:9</text></g>
+    <g transform="translate(400 0)"><rect width="380" height="240" rx="14" fill="#0a0a0c" stroke="#1a1a1f"/><text x="20" y="40" font-family="ui-sans-serif" font-size="11" fill="#ffae3a">● Rendering</text><text x="20" y="84" font-family="Georgia" font-style="italic" font-size="22" fill="#fafafa">The Last Banana</text><text x="20" y="108" font-family="ui-sans-serif" font-size="12" fill="#9aa" opacity="0.7">Pixar-style short · 60s · 1:1</text></g>
+    <g transform="translate(800 0)"><rect width="380" height="240" rx="14" fill="#0a0a0c" stroke="#1a1a1f"/><text x="20" y="40" font-family="ui-sans-serif" font-size="11" fill="#22c55e">● Delivered</text><text x="20" y="84" font-family="Georgia" font-style="italic" font-size="22" fill="#fafafa">VOID — Neural Interface</text><text x="20" y="108" font-family="ui-sans-serif" font-size="12" fill="#9aa" opacity="0.7">Product ad · 45s · 16:9</text></g>
+  </g>
+</svg>

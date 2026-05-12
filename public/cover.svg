@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 800" role="img" aria-label="Director Studio">
+  <defs>
+    <radialGradient id="a" cx="20%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#ff2e63" stop-opacity="0.5"/>
+      <stop offset="60%" stop-color="#ff2e63" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b" cx="80%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#3aa0ff" stop-opacity="0.45"/>
+      <stop offset="60%" stop-color="#3aa0ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="c" cx="50%" cy="110%" r="60%">
+      <stop offset="0%" stop-color="#ffae3a" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#ffae3a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ff2e63"/>
+      <stop offset="100%" stop-color="#3aa0ff"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.06 0"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="800" fill="#0a0a0c"/>
+  <rect width="1600" height="800" fill="url(#a)"/>
+  <rect width="1600" height="800" fill="url(#b)"/>
+  <rect width="1600" height="800" fill="url(#c)"/>
+
+  <!-- subtle grid -->
+  <g opacity="0.06" stroke="#ffffff" stroke-width="1">
+    <path d="M0 200 H1600 M0 400 H1600 M0 600 H1600" />
+    <path d="M200 0 V800 M400 0 V800 M600 0 V800 M800 0 V800 M1000 0 V800 M1200 0 V800 M1400 0 V800" />
+  </g>
+
+  <!-- film-stripe accents -->
+  <g opacity="0.10">
+    <rect x="80" y="120" width="60" height="560" rx="6" fill="#fff"/>
+    <g fill="#0a0a0c">
+      <rect x="92" y="140" width="36" height="32" rx="3"/>
+      <rect x="92" y="190" width="36" height="32" rx="3"/>
+      <rect x="92" y="240" width="36" height="32" rx="3"/>
+      <rect x="92" y="290" width="36" height="32" rx="3"/>
+      <rect x="92" y="340" width="36" height="32" rx="3"/>
+      <rect x="92" y="390" width="36" height="32" rx="3"/>
+      <rect x="92" y="440" width="36" height="32" rx="3"/>
+      <rect x="92" y="490" width="36" height="32" rx="3"/>
+      <rect x="92" y="540" width="36" height="32" rx="3"/>
+      <rect x="92" y="590" width="36" height="32" rx="3"/>
+      <rect x="92" y="640" width="36" height="32" rx="3"/>
+    </g>
+  </g>
+
+  <!-- logo glyph -->
+  <g transform="translate(190 240)">
+    <rect width="120" height="120" rx="28" fill="url(#ring)" opacity="0.12"/>
+    <g transform="translate(60 60)" fill="#fff">
+      <circle r="14"/>
+      <circle cx="-26" cy="-22" r="10" opacity="0.85"/>
+      <circle cx="26" cy="-22" r="10" opacity="0.70"/>
+      <circle cx="-26" cy="22" r="10" opacity="0.55"/>
+      <circle cx="26" cy="22" r="10" opacity="0.40"/>
+    </g>
+  </g>
+
+  <!-- title -->
+  <g font-family="Georgia, 'Iowan Old Style', 'Apple Garamond', serif" fill="#fafafa">
+    <text x="340" y="290" font-size="92" font-style="italic">Director</text>
+    <text x="340" y="380" font-size="92" font-style="italic" opacity="0.7">Studio</text>
+  </g>
+
+  <text x="340" y="430" font-family="ui-sans-serif, system-ui, -apple-system" font-size="22" letter-spacing="0.4em" fill="#fafafa" opacity="0.6">
+    CAST · STORYBOARD · RENDER · COMPOSE
+  </text>
+
+  <!-- chip line -->
+  <g transform="translate(340 480)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#fff" opacity="0.85">
+    <g>
+      <rect width="120" height="36" rx="18" fill="#ffffff" fill-opacity="0.08" stroke="#ff2e63" stroke-opacity="0.35"/>
+      <text x="60" y="24" text-anchor="middle">gen4.5</text>
+    </g>
+    <g transform="translate(140 0)">
+      <rect width="120" height="36" rx="18" fill="#ffffff" fill-opacity="0.08" stroke="#3aa0ff" stroke-opacity="0.35"/>
+      <text x="60" y="24" text-anchor="middle">seedance2</text>
+    </g>
+    <g transform="translate(280 0)">
+      <rect width="120" height="36" rx="18" fill="#ffffff" fill-opacity="0.08" stroke="#ffae3a" stroke-opacity="0.35"/>
+      <text x="60" y="24" text-anchor="middle">veo3.1</text>
+    </g>
+    <g transform="translate(420 0)">
+      <rect width="120" height="36" rx="18" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.3"/>
+      <text x="60" y="24" text-anchor="middle">aleph</text>
+    </g>
+    <g transform="translate(560 0)">
+      <rect width="120" height="36" rx="18" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.3"/>
+      <text x="60" y="24" text-anchor="middle">eleven</text>
+    </g>
+  </g>
+
+  <!-- corner mark -->
+  <g transform="translate(1380 700)" font-family="ui-monospace" font-size="12" fill="#fff" opacity="0.5">
+    <text>RhythrosaLabs · 2026</text>
+  </g>
+
+  <!-- grain overlay -->
+  <rect width="1600" height="800" filter="url(#grain)"/>
+</svg>

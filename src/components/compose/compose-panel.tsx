@@ -101,6 +101,7 @@ export function ComposePanel({
           projectId: project.id,
           crossfadeSeconds: crossfade,
           musicVolume,
+          filename: "final.mp4",
         });
         toast.success("Final cut ready");
       } catch (e) {
@@ -400,7 +401,11 @@ function RemixCard({
   function bgRemove() {
     startPending(async () => {
       try {
-        await backgroundRemoveAction({ projectId: project.id, shotId: shot.id });
+        await backgroundRemoveAction({
+          projectId: project.id,
+          shotId: shot.id,
+          prompt: "transparent black background, isolate subject only, clean matte, no fringing",
+        });
         toast.success("Background isolated");
       } catch (e) {
         toast.error(e instanceof Error ? e.message : "BG remove failed");

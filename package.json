@@ -4,13 +4,15 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "next dev --turbo",
+    "dev": "next dev --turbo -p 8888",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 8888",
     "lint": "next lint",
     "db:push": "drizzle-kit push",
     "db:studio": "drizzle-kit studio",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "screenshots": "node scripts/capture.mjs",
+    "bootstrap": "bash scripts/bootstrap.sh"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.4",
